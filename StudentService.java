@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
+
 package kiemtra;
 
-/**
- *
- * @author 84363
- */
+import java.util.*;
 public interface StudentService {
-    
+    public void addStudent(Student t);
+     public void deleteStudent(int id);
+     public void searchStudent(String name);
+     public void sortedStudent();
+     public void showAllStudent();
+     
+     
 }
